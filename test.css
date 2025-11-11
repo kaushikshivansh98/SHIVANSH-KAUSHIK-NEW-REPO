@@ -1,0 +1,21 @@
+.color{
+    color: white;
+    background-color: black;
+    border: solid black
+}
+div{
+    height: auto;
+    width: auto;
+    border: solid;
+    padding: 2%;
+    background-color: yellow;
+    text-decoration: dashed;
+    text-align: center;
+}
+.group{
+    color: red;
+}
+.yep{
+        text-decoration-line: underline;
+
+}

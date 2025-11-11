@@ -1,0 +1,13 @@
+.all-tables {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+p{
+    color:gray;
+    font-size: 10px;
+}
+h3{
+    background-color: black;
+}

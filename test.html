@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <p class="yep"> (Q)Create a form that includes CSS Email,phone number,dropdown,checkdown,and submit Valide phone number using  pattern attribute</p>
+    <form>
+        <center><h1 class="color">Form</h1></center>
+        <div>
+            <label for="email" class="group">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            <br><br>
+            <label for="phone" class="group">Phone No :</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter Your Phone" required size="10" max="10">
+            <br><br>
+            <label for="dropdown" class="group">Option:</label>
+            <select id="dropdown" name="dropdown" required>
+                <option value="">Please choose an option</option>
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+                <option value="option3">Option 3</option>
+            </select>
+            <br><br>
+            <input type="submit" value="submit">
+            <input type="reset" value="submit">
+        </div>
+
+    </form>
+    
+</body>
+</html>
