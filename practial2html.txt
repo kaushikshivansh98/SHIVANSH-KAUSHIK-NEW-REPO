@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEase</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+    .navbar{
+	    width:100%;
+	    color: white;
+	    background:black;
+	    display:flex;
+	    justify-content:space-between;
+	    align-items:center;
+	}
+    .logo{
+	   font-size:20px;
+	   font-weight:bold;
+}	
+    .nav-link{
+	    display:flex;
+	    justify-content:center;
+ 	    gap:30px;
+}
+     .navright{
+	    display: flex;
+            gap: 20px;
+}
+</style>
+<body>
+   <nav class="navbar">
+	<div class="logo">SHOP</div>
+	<ul class="nav-lnk">
+		<li><a href="#">Home</a></li>
+		<li><a re="#">Shop</a></li>
+		<li><a re="#">Poduct</a></li>
+		<li><a re="#">Search</a></li>
+		<li><a re="#">Contact</a></li></ul>
+        <div class="nav-right">
+		<a href="#" style="color:white;text-decoration:none;">cart</a>
+		<a href="#" style="color:white;text-decoration:none;">Login</a>
+	</div>
+	</nav>
+	<h2 style="margin:20px">Welcometo Shop</h2>
+
+</body>
+</html>
